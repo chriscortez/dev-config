@@ -1,0 +1,7 @@
+[alias]
+  s  = status
+  d  = diff
+  co = checkout
+  b  = branch
+[color]
+  ui = true
