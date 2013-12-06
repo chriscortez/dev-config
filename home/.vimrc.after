@@ -5,6 +5,7 @@ colorscheme mayansmoke
 set nolist
 set guioptions-=r
 set guioptions-=L
+set guioptions-=T
 
 if has('gui_running')
   set background=light
