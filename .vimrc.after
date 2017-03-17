@@ -1,0 +1,20 @@
+syntax enable
+set background=light
+colorscheme mayansmoke
+
+
+set nolist
+set guioptions-=r
+set guioptions-=L
+set guioptions-=T
+
+if has('gui_running')
+  set background=light
+else
+  set background=light
+endif
+
+let g:ctrlp_working_path_mode = 0
+set noautochdir
+
+hi IncSearch guifg=black guibg=darkorange gui=NONE
