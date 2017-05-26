@@ -7,14 +7,29 @@ set nolist
 set guioptions-=r
 set guioptions-=L
 set guioptions-=T
+set cursorline
+set nospell
 
 if has('gui_running')
   set background=light
 else
-  set background=dark
+  set background=light
 endif
 
 let g:ctrlp_working_path_mode = 0
 set noautochdir
 
 hi IncSearch guifg=black guibg=darkorange gui=NONE
+
+" Syntastic settings for beginners
+" ==================================
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+:filetype plugin on
