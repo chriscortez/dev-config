@@ -14,5 +14,4 @@ export EDITOR=vim
 for profile_snippet in $(ls -1 ~/.bash_profile.d/*.sh)
 do
       source ${profile_snippet}
-    done
 done
