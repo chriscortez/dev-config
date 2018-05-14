@@ -11,6 +11,9 @@ export EDITOR=vim
 #export PATH=$HOME/.rbenv/bin:$PATH
 #eval "$(rbenv init -)"
 
+# Aliases
+alias etr="rm -rf ~/.Trash/*"
+
 for profile_snippet in $(ls -1 ~/.bash_profile.d/*.sh)
 do
       source ${profile_snippet}
