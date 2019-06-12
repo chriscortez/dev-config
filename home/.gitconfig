@@ -3,5 +3,26 @@
   d  = diff
   co = checkout
   b  = branch
+
+  ci = commit
+  cim = commit -m
+
+  pom = push origin master
+
+  pl = pull --rebase
+
+  df = diff --color-words
+
+  gl = log --graph --abbrev-commit --pretty=oneline --decorate
+
+  ll = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Cgreen(%cr) %C(bold blue)<%an> %Creset %s' --abbrev-commit --date=relative --max-count=20
+  lll = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Cgreen(%cr) %C(bold blue)<%an> %Creset %s' --abbrev-commit --date=relative --max-count=100
+  this = !git init && git add . && git commit -m "Initial commit"
+  amend = !git log -n 1 --pretty=tformat:%s%n%n%b | git commit -F - --amend
+  empty = commit --allow-empty -am "Empty commit"
+
 [color]
   ui = true
+[user]
+	name = Chris Cortez
+	email = christopher.cortez@gmail.com

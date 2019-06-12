@@ -10,10 +10,13 @@ set guioptions-=T
 set cursorline
 set nospell
 
+set foldmethod=indent
+set foldlevelstart=1
+
 if has('gui_running')
   set background=light
 else
-  set background=light
+  colorscheme molokai
 endif
 
 let g:ctrlp_working_path_mode = 0
@@ -27,6 +30,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+let g:molokai_original=1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
