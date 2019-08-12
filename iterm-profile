@@ -320,6 +320,27 @@
             "algorithm" : 0
           }
         }
+      },
+      {
+        "class" : "iTermStatusBarSwiftyStringComponent",
+        "configuration" : {
+          "knobs" : {
+            "expression" : "Node: \\(user.nodeVersion)",
+            "base: priority" : 5,
+            "base: compression resistance" : 1,
+            "shared text color" : {
+              "Red Component" : 0.98284912109375,
+              "Color Space" : "sRGB",
+              "Blue Component" : 0.9717559814453125,
+              "Alpha Component" : 1,
+              "Green Component" : 0
+            }
+          },
+          "layout advanced configuration dictionary value" : {
+            "font" : ".AppleSystemUIFont 12",
+            "algorithm" : 0
+          }
+        }
       }
     ],
     "advanced configuration" : {
