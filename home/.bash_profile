@@ -20,3 +20,13 @@ for profile_snippet in $(ls -1 ~/.bash_profile.d/*.sh)
 do
     source ${profile_snippet}
 done
+
+# iTerm2 Shell Integration (must install in menu first)
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+# For iTerm2 Status Bar configuration
+function iterm2_print_user_vars() {
+  iterm2_set_user_var phpVersion $(php -v | awk '/^PHP/ { print $2 }')
+  iterm2_set_user_var rubyVersion $(ruby -v | awk '{ print $2 }')
+  iterm2_set_user_var nodeVersion $(node -v)
+}
