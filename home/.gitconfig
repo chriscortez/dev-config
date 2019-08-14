@@ -15,6 +15,7 @@
 
   gl = log --graph --abbrev-commit --pretty=oneline --decorate
 
+  l = log --pretty=oneline
   ll = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Cgreen(%cr) %C(bold blue)<%an> %Creset %s' --abbrev-commit --date=relative --max-count=20
   lll = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Cgreen(%cr) %C(bold blue)<%an> %Creset %s' --abbrev-commit --date=relative --max-count=100
   this = !git init && git add . && git commit -m "Initial commit"
