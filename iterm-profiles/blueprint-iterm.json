@@ -298,7 +298,7 @@
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
-            "font" : ".AppleSystemUIFont 12",
+            "font" : ".AppleSystemUIFont 11",
             "algorithm" : 0
           }
         }
@@ -321,7 +321,7 @@
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
-            "font" : ".AppleSystemUIFont 12",
+            "font" : ".AppleSystemUIFont 11",
             "algorithm" : 0
           }
         }
@@ -342,14 +342,14 @@
             }
           },
           "layout advanced configuration dictionary value" : {
-            "font" : ".AppleSystemUIFont 12",
+            "font" : ".AppleSystemUIFont 11",
             "algorithm" : 0
           }
         }
       }
     ],
     "advanced configuration" : {
-      "font" : ".AppleSystemUIFont 12",
+      "font" : ".AppleSystemUIFont 11",
       "algorithm" : 0
     }
   },
