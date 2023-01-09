@@ -14,8 +14,8 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 export ANDROID_SDK=${ANDROID_HOME}
 
 # rbenv
-export PATH=$HOME/.rbenv/bin:$PATH
-eval "$(rbenv init -)"
+# export PATH=$HOME/.rbenv/bin:$PATH
+# eval "$(rbenv init -)"
 
 
 # Aliases
@@ -59,3 +59,6 @@ eval "$(starship init bash)"
 export PATH="/Users/chris/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
