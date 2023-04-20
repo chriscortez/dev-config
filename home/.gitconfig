@@ -7,6 +7,11 @@
   ci = commit
   cim = commit -m
 
+  st = stash
+  stl = stash list
+  stp = stash pop
+  stc = stash clear
+
   pom = push origin master
 
   pl = pull --rebase
