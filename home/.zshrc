@@ -1,6 +1,6 @@
 eval "$(starship init zsh)"
 
-alias git-clean="git fetch -p && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done"
+alias git-clean="~/code/scripts/delete_deleted_branches.sh"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
