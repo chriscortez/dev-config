@@ -12,4 +12,4 @@ Personal config files for development environment.
 
 ## Raycast Setup
 1. Import the latest Raycast config
-2. Pull repo in `script-commands`
+2. From `dev-config`, run `git submodule init` and `git submodule update` to populate `raycast/script-commands`
