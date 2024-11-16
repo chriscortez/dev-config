@@ -5,11 +5,7 @@
     "Blue Component" : 1,
     "Red Component" : 1
   },
-  "Ansi 0 Color" : {
-    "Green Component" : 0,
-    "Blue Component" : 0,
-    "Red Component" : 0
-  },
+  "Non-ASCII Anti Aliased" : true,
   "Cursor Text Color" : {
     "Green Component" : 1,
     "Blue Component" : 1,
@@ -36,7 +32,7 @@
     "Blue Component" : 0,
     "Red Component" : 0
   },
-  "Guid" : "C470D2D4-C94D-49A7-A9F0-4E9D17E59714",
+  "Guid" : "C8ECCCBF-21F0-466A-AA59-0027E98C0C2B",
   "Cursor Color (Dark)" : {
     "Green Component" : 0.73333334922790527,
     "Blue Component" : 0.73333334922790527,
@@ -134,6 +130,7 @@
   },
   "Vertical Spacing" : 1,
   "Use Tab Color (Light)" : true,
+  "Cursor Type" : 2,
   "Columns" : 80,
   "Ansi 2 Color (Light)" : {
     "Green Component" : 0.73333334922790527,
@@ -280,6 +277,7 @@
     "Blue Component" : 1,
     "Red Component" : 1
   },
+  "Cursor Shadow" : false,
   "Ansi 11 Color" : {
     "Green Component" : 1,
     "Blue Component" : 0.3333333432674408,
@@ -296,7 +294,7 @@
     "Blue Component" : 0.3333333432674408,
     "Red Component" : 0.3333333432674408
   },
-  "Normal Font" : "MesloLGS-NF-Regular 13",
+  "Normal Font" : "HackNerdFontComplete-Regular 12",
   "Use Selected Text Color (Dark)" : true,
   "Foreground Color" : {
     "Green Component" : 0.73333334922790527,
@@ -321,7 +319,7 @@
     "Blue Component" : 1,
     "Red Component" : 1
   },
-  "Icon" : 0,
+  "Icon" : 1,
   "Ansi 5 Color (Dark)" : {
     "Green Component" : 0,
     "Blue Component" : 0.73333334922790527,
@@ -606,11 +604,15 @@
     "Blue Component" : 0,
     "Red Component" : 0
   },
-  "Non-ASCII Anti Aliased" : true,
   "Ansi 12 Color (Light)" : {
     "Green Component" : 0.3333333432674408,
     "Blue Component" : 1,
     "Red Component" : 0.3333333432674408
+  },
+  "Ansi 0 Color" : {
+    "Green Component" : 0,
+    "Blue Component" : 0,
+    "Red Component" : 0
   },
   "Foreground Color (Dark)" : {
     "Green Component" : 0.73333334922790527,
